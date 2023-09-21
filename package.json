@@ -1,0 +1,55 @@
+{
+  "name": "sunshine-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.min.js",
+  "module": "dist/index.esm.js",
+  "author": "sunshine_lin",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@types/lodash": "^4.14.197",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "async": "^3.0.0",
+    "auto-changelog": "^1.15.0",
+    "concat-stream": "^2.0.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "expect.js": "~0.3.1",
+    "mocha": "^3.5.3",
+    "nyc": "^14.0.0",
+    "prettier": "^3.0.2",
+    "rollup": "^3.28.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "semver": "^5.0.3",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0",
+    "sse": "0.0.8",
+    "typescript": "^5.1.6",
+    "ws": "^3.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.6.3",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "eventemitter3": "^4.0.0",
+    "express": "^4.18.2",
+    "follow-redirects": "^1.0.0",
+    "requires-port": "^1.0.0",
+    "util": "^0.12.5"
+  }
+}
